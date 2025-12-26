@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mathcalc-container">
+        <div class="mathcalc-wrapper">
+            <div class="mathcalc-header">
+                <h1 class="mathcalc-title">Calculator</h1>
+            </div>
+            
+            <div class="mathcalc-display-container">
+                <div class="mathcalc-display" id="mathcalc-display">0</div>
+                <div class="mathcalc-error" id="mathcalc-error"></div>
+            </div>
+            
+            <div class="mathcalc-buttons">
+                <button class="mathcalc-btn mathcalc-btn-clear" id="mathcalc-clear" type="button">
+                    <span class="mathcalc-btn-text">C</span>
+                    <span class="mathcalc-btn-loader"></span>
+                </button>
+                <button class="mathcalc-btn mathcalc-btn-operator" data-operator="/" type="button">
+                    <span class="mathcalc-btn-text">/</span>
+                    <span class="mathcalc-btn-loader"></span>
+                </button>
+                <button class="mathcalc-btn mathcalc-btn-operator" data-operator="*" type="button">
+                    <span class="mathcalc-btn-text">×</span>
+                    <span class="mathcalc-btn-loader"></span>
+                </button>
+                <button class="mathcalc-btn mathcalc-btn-operator" data-operator="-" type="button">
+                    <span class="mathcalc-btn-text">-</span>
+                    <span class="mathcalc-btn-loader"></span>
+                </button>
+                
+                <button class="mathcalc-btn mathcalc-btn-number" data-number="7" type="button">
+                    <span class="mathcalc-btn-text">7</span>
+                    <span class="mathcalc-btn-loader"></span>
+                </button>
+                <button class="mathcalc-btn mathcalc-btn-number" data-number="8" type="button">
+                    <span class="mathcalc-btn-text">8</span>
+                    <span class="mathcalc-btn-loader"></span>
+                </button>
+                <button class="mathcalc-btn mathcalc-btn-number" data-number="9" type="button">
+                    <span class="mathcalc-btn-text">9</span>
+                    <span class="mathcalc-btn-loader"></span>
+                </button>
+                <button class="mathcalc-btn mathcalc-btn-operator" data-operator="+" type="button">
+                    <span class="mathcalc-btn-text">+</span>
+                    <span class="mathcalc-btn-loader"></span>
+                </button>
+                
+                <button class="mathcalc-btn mathcalc-btn-number" data-number="4" type="button">
+                    <span class="mathcalc-btn-text">4</span>
+                    <span class="mathcalc-btn-loader"></span>
+                </button>
+                <button class="mathcalc-btn mathcalc-btn-number" data-number="5" type="button">
+                    <span class="mathcalc-btn-text">5</span>
+                    <span class="mathcalc-btn-loader"></span>
+                </button>
+                <button class="mathcalc-btn mathcalc-btn-number" data-number="6" type="button">
+                    <span class="mathcalc-btn-text">6</span>
+                    <span class="mathcalc-btn-loader"></span>
+                </button>
+                <button class="mathcalc-btn mathcalc-btn-equals" id="mathcalc-equals" type="button">
+                    <span class="mathcalc-btn-text">=</span>
+                    <span class="mathcalc-btn-loader"></span>
+                </button>
+                
+                <button class="mathcalc-btn mathcalc-btn-number" data-number="1" type="button">
+                    <span class="mathcalc-btn-text">1</span>
+                    <span class="mathcalc-btn-loader"></span>
+                </button>
+                <button class="mathcalc-btn mathcalc-btn-number" data-number="2" type="button">
+                    <span class="mathcalc-btn-text">2</span>
+                    <span class="mathcalc-btn-loader"></span>
+                </button>
+                <button class="mathcalc-btn mathcalc-btn-number" data-number="3" type="button">
+                    <span class="mathcalc-btn-text">3</span>
+                    <span class="mathcalc-btn-loader"></span>
+                </button>
+                <button class="mathcalc-btn mathcalc-btn-number mathcalc-btn-zero" data-number="0" type="button">
+                    <span class="mathcalc-btn-text">0</span>
+                    <span class="mathcalc-btn-loader"></span>
+                </button>
+                
+                <button class="mathcalc-btn mathcalc-btn-number" data-number="." type="button">
+                    <span class="mathcalc-btn-text">.</span>
+                    <span class="mathcalc-btn-loader"></span>
+                </button>
+            </div>
+        </div>
+        
+      
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
